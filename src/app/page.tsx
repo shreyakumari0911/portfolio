@@ -8,12 +8,6 @@ import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
 import { FaArrowRight, FaEnvelope } from 'react-icons/fa';
 
-export const metadata = {
-  title: 'Shreya Kumari - Software Developer',
-  description: 'Full-stack Software Developer specializing in web applications and cloud-based automation solutions. Passionate about creating scalable and secure code to solve real-world problems.',
-  keywords: 'Software Developer, Full Stack Developer, Web Development, Cloud Computing, Automation, React, Spring Boot, MongoDB',
-};
-
 const fadeIn = {
   hidden: { opacity: 0, y: 40 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: 'easeOut' } },
