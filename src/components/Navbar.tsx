@@ -131,7 +131,9 @@ const Navbar = () => {
                 e.preventDefault();
                 const element = document.getElementById(link.href.slice(1));
                 element?.scrollIntoView({ behavior: 'smooth' });
-                setIsOpen(false);
+                setTimeout(() => {
+                  setIsOpen(false);
+                }, 300);
               }}
             >
               {link.label}
